@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ashesi CV</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" type="text/css" />
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="header">
+        <p>ASHESI UNIVERSITY CV</p>
+      </div>
+
+      <p class="heading">Curriculum Vitae Details</p>
+      <form id="fill-form" class="form-container" method="POST">
+        <div class="fill-area">
+          <label for="FirstName"> First Name </label>
+          <input
+            type="text"
+            id="firstname"
+            name="firstname"
+            placeholder="First Name"
+          />
+        </div>
+
+        <div class="fill-area">
+          <label for="MiddleName"> Middle Name </label>
+          <input
+            type="text"
+            id="middlename"
+            name="middlename"
+            placeholder="Middle Name"
+          />
+        </div>
+
+        <div class="fill-area">
+          <label for="LastName"> Last Name </label>
+          <input
+            type="text"
+            id="lastname"
+            name="lastname"
+            placeholder="Last Name"
+          />
+        </div>
+
+        <div class="fill-area">
+          <label for="Gender"> Gender </label>
+          <select id="gender" name="Gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+          </select>
+        </div>
+
+        <div class="fill-area">
+          <label for="phoneNumber"> Phone Number </label>
+          <input
+            type="tel"
+            id="number"
+            name="number"
+            placeholder="012 345 6789"
+          />
+        </div>
+
+        <div class="fill-area">
+          <label for="email"> Email </label>
+          <input
+            type="text"
+            id="email"
+            name="email"
+            placeholder="student@example.com"
+          />
+        </div>
+
+        <div class="fill-area">
+          <label for="HouseAddress"> House Address </label>
+          <input
+            type="text"
+            id="houseaddress"
+            name="houseaddress"
+            placeholder="House Address"
+          />
+        </div>
+
+        <button id="submitForm" type="submit">Submit</button>
+      </form>
+    </div>
+  </body>
+  <script src="index.js"></script>
+</html>

@@ -1,0 +1,221 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(245, 248, 225);
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 18px;
+}
+
+.header {
+  background-color: rgba(62, 105, 144, 0.9);
+  font-size: 3rem;
+  padding: 1rem 2rem;
+}
+
+.header p {
+  text-align: center;
+  color: white;
+}
+
+@media (min-width: 360px) and (max-width: 450px) {
+  .header {
+    background-color: rgba(62, 105, 144, 0.9);
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+  }
+}
+
+img {
+  margin-right: 15px;
+  border-radius: 0%;
+}
+
+img + p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-right: 10px;
+}
+
+.heading {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  width: 100%;
+}
+
+.form-container button {
+  align-items: center;
+  color: white;
+  margin: 3rem 0;
+  padding: 10px;
+  background-color: rgba(62, 105, 144, 1);
+  font-size: 1rem;
+  width: 100px;
+  border: 1px solid black;
+  border-radius: 5%;
+}
+
+.form-container div:first-of-type {
+  margin-top: 5px;
+}
+
+option {
+  width: 129px;
+}
+
+input {
+  width: 150px;
+}
+
+.fill-area {
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 1px;
+}
+
+label {
+  display: inline-block;
+  text-align: right;
+  width: 150px;
+}
+
+.personal-details p {
+  font-size: 0.9rem;
+  margin: 0;
+  text-align: center;
+}
+
+.personal-details p:first-of-type {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 1.1rem;
+  font-weight: bolder;
+  margin: 0;
+}
+
+hr {
+  margin: 0;
+  color: black;
+}
+
+.cv-body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 30px 0 0 0;
+  padding: 0;
+}
+
+.main-body {
+  margin: 5px 7%;
+  padding: 4px, 40px;
+  box-shadow: 5px 5px 10px grey, -5px -5px 10px grey;
+}
+
+.sub-body {
+  margin: 0 2%;
+}
+
+.schooling {
+  display: flex;
+  flex-direction: row;
+  align-content: stretch;
+}
+
+.sch-details {
+  flex: 1 1 auto;
+}
+
+.location p:first-of-type {
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.sch-details p:first-of-type {
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.location p {
+  text-align: right;
+  margin: 0;
+}
+
+.sch-details p {
+  margin: 0;
+}
+
+.grid-courses {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 0.0002fr);
+  column-gap: 30px;
+}
+
+.grid-courses div:first-of-type {
+  font-weight: bold;
+}
+.item-five {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.item-six {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.grid-experience {
+  display: grid;
+  grid-template-columns: 1.5fr 0.5fr;
+  grid-template-rows: repeat(2, 0.0002fr);
+  column-gap: 30px;
+}
+
+.item-two {
+  text-align: right;
+}
+
+.experience h4 {
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.experience ul {
+  text-align: justify;
+}
+
+.grid-date p:first-of-type {
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.grid-date p {
+  margin: 0;
+  text-align: right;
+}
+
+.references p {
+  padding-bottom: 50px;
+  margin-bottom: 50px;
+}
